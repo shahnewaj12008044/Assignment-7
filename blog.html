@@ -22,7 +22,34 @@
     <h1 class="text-center text-2xl font-bold mt-2">Welcome to My Blog Page</h1>
     <div class="mt-3">
         <h1 class="text-2xl ms-2 font-medium">1. Difference between map, filter, forEach, find</h1>
-        <p class="mt-4 ms-2">Answer: map is a method of array which returns a new array with some condintions.</p>
+        <p class="mt-1 mx-4 bg-green-300 p-4 font-medium rounded-xl	text-orange-950	"> map is a method of array which returns a new array with some condintions.It can change the elements of the array. </p>
+        <p class="mt-1 mx-4 bg-green-300 p-4 font-medium rounded-xl	text-orange-950	">
+            forEach is similar to map but forEach does not return a new array.By using it we can modify an array but cant store the modified array in a variable whereas we can do that by using map.
+        </p>
+        <p class="mt-1 mx-4 bg-green-300 p-4 font-medium rounded-xl	text-orange-950	">
+            Filter is the method of array which is actually used to find the specific elements of an array which satisfies the condition.It technically dont change the original array.
+        </p>
+        <p class="mt-1 mx-4 bg-green-300 p-4 font-medium rounded-xl	text-orange-950	">
+            Find is  similar to filter but find only returns the first value that satisfies condition whereas filter returns an array with all the elements that satisfies the condition.
+        </p>
+    </div>
+    <div class="mt-3">
+        <h1 class="text-2xl ms-2 font-medium">2. Difference between Local storage, Session storage, cookies.</h1>
+        <p class="mt-1 mx-4 bg-green-300 p-4 font-medium rounded-xl	text-orange-950	">
+            Local Storage stores data of users in string data type with no expiration date in the broweser.Its maximum capacity is 5 Mb.
+        </p>
+        <p class="mt-1 mx-4 bg-green-300 p-4 font-medium rounded-xl	text-orange-950	">
+            Session storage stores data of users in string data type but only for the session means it will last until the browser opened when someone close the tab the data gets deleted but after reloading the page it remains same.The maximum capacity of session storage is 5-10 MB.
+        </p>
+        <p class="mt-1 mx-4 bg-green-300 p-4 font-medium rounded-xl	text-orange-950	">
+            Cookies are small files of information that a web server generates and sends to a web browser for improving user experience.It can be accessed by document.cookie
+        </p>
+    </div>
+    <div class="mt-3 mb-2">
+        <h1 class="text-2xl ms-2 font-medium">3. What is Event loop</h1>
+        <p class="mt-1 mx-4 bg-green-300 p-4 font-medium rounded-xl	text-orange-950	">
+            JavaScript is a single-threaded asynchronous and also non-blocking  programming language.It is possible because of having a runtime model based on event-loop.What it does is it pulls stuffs from the task qeuee and place it to the execution stack when the execution stack is empty. 
+        </p>
     </div>
     <!-- js file -->
     <script src="index.js"></script>
