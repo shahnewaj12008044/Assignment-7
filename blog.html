@@ -45,11 +45,15 @@
             Cookies are small files of information that a web server generates and sends to a web browser for improving user experience.It can be accessed by document.cookie
         </p>
     </div>
-    <div class="mt-3 mb-2">
+    <div class="mt-3">
         <h1 class="text-2xl ms-2 font-medium">3. What is Event loop</h1>
         <p class="mt-1 mx-4 bg-green-300 p-4 font-medium rounded-xl	text-orange-950	">
             JavaScript is a single-threaded asynchronous and also non-blocking  programming language.It is possible because of having a runtime model based on event-loop.What it does is it pulls stuffs from the task qeuee and place it to the execution stack when the execution stack is empty. 
         </p>
+    </div>
+    <div class="mt-3">
+        <p class="mt-1 mx-4 bg-cyan-600 p-4 font-medium rounded-xl	text-orange-950	">The function quizTimer() actually stoppes the setInterval when the submit button is clicked.It takes a parameter dismiss which is actually a boolean argument and it is called with true value in index.js 64 where the time interval gets stopped</p>
+        <p class="mt-1 mx-4 bg-cyan-600 p-4 font-medium rounded-xl	text-orange-950	"> The function chooseQuiz() actually collects the answers as an array.It actually updates the answer if it exists in ifExists variable and it push the answer directly if isExists is undefined.To sum up it is the function infact does collect the answers that is given by the user as an array.</p>
     </div>
     <!-- js file -->
     <script src="index.js"></script>
